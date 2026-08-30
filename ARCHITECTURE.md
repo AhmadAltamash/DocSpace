@@ -69,7 +69,7 @@ native documents.
 
 ## Deployment path (recommended, not executed against live infra)
 
-- **Client** → Vercel (`vercel --prod` from `client/`, or connect the GitHub repo; set `VITE_API_URL` to the deployed API URL)
+- **Client** → Vercel (`vercel --prod` from `client/`, or connect the GitHub repo; set `API_URL` to the deployed API URL)
 - **Server** → Render (Web Service, root `server/`, build `npm install`, start `npm start`; set `JWT_SECRET`, `CLIENT_ORIGIN`, and either leave `STORE_DRIVER=json` or set `STORE_DRIVER=mongo` + `MONGODB_URI`)
 - **Database** (only if using `mongo` mode) → MongoDB Atlas free tier
 
