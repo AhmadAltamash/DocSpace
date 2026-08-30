@@ -1,0 +1,285 @@
+{
+  "users": [
+    {
+      "_id": "opx5Y5ndGHN8bcCJq0l4a",
+      "name": "Alice",
+      "email": "alice@example.com",
+      "passwordHash": "$2a$10$/uFgeXmtHxHl1sTxCVpoVeQDDBP1.coYqHr1taMF.A43Lfkphrdf.",
+      "createdAt": "2026-08-30T20:09:57.449Z"
+    },
+    {
+      "_id": "Qnn3brcPm5Ys-GdUI-9iz",
+      "name": "Bob",
+      "email": "bob@example.com",
+      "passwordHash": "$2a$10$m3Nq5Epe/Egknk3iPmy.Fe80z4cNOkfd5dh9VX1nxwB69nPMLyzLa",
+      "createdAt": "2026-08-30T20:09:57.450Z"
+    }
+  ],
+  "documents": [
+    {
+      "_id": "QbJWzWw8lYnw7g3tAxIzf",
+      "title": "Product Launch Plan",
+      "content": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 1
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Product Launch Plan"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "underline"
+                  }
+                ],
+                "text": "This is a sample document owned by Alice."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 2
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Goals"
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Ship the MVP"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Get 5 pilot customers"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Collect feedback"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 2
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Timeline"
+              }
+            ]
+          },
+          {
+            "type": "orderedList",
+            "attrs": {
+              "start": 1,
+              "type": null
+            },
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Week 1: build"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Week 2: test"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Week 3: launch"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "owner": "opx5Y5ndGHN8bcCJq0l4a",
+      "createdAt": "2026-08-30T20:09:57.453Z",
+      "updatedAt": "2026-08-30T20:29:06.257Z"
+    },
+    {
+      "_id": "pVueiMtNYgUYt-OCOk5vo",
+      "title": "Myself",
+      "content": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Hello I am a full stack Developer"
+              }
+            ]
+          }
+        ]
+      },
+      "owner": "Qnn3brcPm5Ys-GdUI-9iz",
+      "createdAt": "2026-08-30T20:11:27.555Z",
+      "updatedAt": "2026-08-30T21:03:10.104Z"
+    },
+    {
+      "_id": "GIyjMXW2BcQrLw53YZjIr",
+      "title": "Product Guide",
+      "content": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 1
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Start with the structured Plan."
+              }
+            ]
+          },
+          {
+            "type": "orderedList",
+            "attrs": {
+              "start": 1,
+              "type": null
+            },
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "If you can edit the manual, it would be very helpful."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Now i also can write anything to it."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "owner": "opx5Y5ndGHN8bcCJq0l4a",
+      "createdAt": "2026-08-30T21:00:57.804Z",
+      "updatedAt": "2026-08-30T21:03:05.019Z"
+    }
+  ],
+  "shares": [
+    {
+      "_id": "o9eyItl6JvRBHZbUq4mZr",
+      "document": "QbJWzWw8lYnw7g3tAxIzf",
+      "user": "Qnn3brcPm5Ys-GdUI-9iz",
+      "permission": "editor",
+      "createdAt": "2026-08-30T20:09:57.455Z"
+    },
+    {
+      "_id": "1V_QlXQVK4ctAyymE-xTB",
+      "document": "pVueiMtNYgUYt-OCOk5vo",
+      "user": "opx5Y5ndGHN8bcCJq0l4a",
+      "permission": "viewer",
+      "createdAt": "2026-08-30T20:12:41.440Z"
+    },
+    {
+      "_id": "Kkmfd5QKvuU1cSB5RQyXe",
+      "document": "GIyjMXW2BcQrLw53YZjIr",
+      "user": "Qnn3brcPm5Ys-GdUI-9iz",
+      "permission": "editor",
+      "createdAt": "2026-08-30T21:02:27.628Z"
+    }
+  ]
+}
