@@ -1,7 +1,11 @@
+import dns from 'dns';
 import 'dotenv/config';
 import bcrypt from 'bcryptjs';
 import store from '../repository/index.js';
 import { textToDoc } from './editor.js';
+
+dns.setServers(['8.8.8.8', '1.1.1.1']);
+dns.setDefaultResultOrder('ipv4first');
 
 const DEMO_USERS = [
   { name: 'Alice', email: 'alice@example.com', password: 'password123' },

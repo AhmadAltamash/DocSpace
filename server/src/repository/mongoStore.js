@@ -2,8 +2,12 @@
 // MONGODB_URI is set (e.g. a MongoDB Atlas connection string). Implements
 // the exact same interface as jsonStore.js so controllers never know or
 // care which backend is active.
+import dns from 'dns';
 import mongoose from 'mongoose';
 import { UserModel, DocumentModel, ShareModel } from '../models/schemas.js';
+
+dns.setServers(['8.8.8.8', '1.1.1.1']);
+dns.setDefaultResultOrder('ipv4first');
 
 let connected = null;
 async function init() {
