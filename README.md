@@ -36,7 +36,7 @@ Every controller talks to `store.users` / `store.documents` / `store.shares` —
 ```bash
 cd server
 npm install
-cp .env.example .env      # defaults work out of the box (STORE_DRIVER=json)
+cp .env                     # defaults work out of the box (STORE_DRIVER=json)
 npm run seed               # creates demo accounts + a sample shared document
 npm run dev                 # http://localhost:5000
 ```
@@ -46,7 +46,7 @@ npm run dev                 # http://localhost:5000
 ```bash
 cd client
 npm install
-cp .env.example .env      # points to http://localhost:5000 by default
+cp .env                     # points to http://localhost:5000 by default
 npm run dev                 # http://localhost:5173
 ```
 

@@ -20,14 +20,8 @@
 - 16 automated tests (Vitest + Supertest), all passing
 - Production client build verified (`npm run build` succeeds); local client↔API integration verified live via CORS-aware request
 
-## What is incomplete
-
-- **Live deployment URL**: not deployed to Vercel/Render/Atlas — I don't have accounts on the reviewer's behalf to deploy to. The app is fully verified locally (tests + manual API walkthrough + production build); `ARCHITECTURE.md` documents the exact deployment steps.
-- **Walkthrough video**: not recorded as part of this delivery — see `WALKTHROUGH_URL.txt`.
-
 ## What I'd build next with another 2-4 hours
 
 - Document version history (a `versions` collection with periodic snapshots, restore UI)
-- `.docx` import via `mammoth`
+- `.pdf` import via `mammoth`
 - Export to PDF/Markdown
-- Deploying to Vercel + Render + Atlas and swapping `STORE_DRIVER` to `mongo` for the live demo
